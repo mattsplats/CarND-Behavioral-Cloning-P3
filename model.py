@@ -96,6 +96,10 @@ model.add(Dense(10))
 # single output for regression network
 model.add(Dense(1))
 
+# plot the model
+from keras.utils.visualize_util import plot
+plot(model, to_file='model.png', show_shapes=True)
+
 # train the model
 model.compile(loss='mse', optimizer='adam')
 model.fit_generator(train_generator, samples_per_epoch=len(train_samples) * IMG_PER_SAMPLE, validation_data=validation_generator, nb_val_samples=len(validation_samples) * IMG_PER_SAMPLE, nb_epoch=EPOCHS)
