@@ -80,4 +80,4 @@ For the training process, I randomly shuffled the data set and put 30% of the da
 
 Testing consisted of an autononous run through the simulator to verify that the vehicle could stay on the track. The video below shows how the simulator performed on the final model:
 
-[![Watch the video](./images/preview.jpg)](./video.mp4)
+[![Watch the video](./images/preview.jpg)](https://github.com/mattsplats/CarND-Behavioral-Cloning-P3/blob/master/video.mp4?raw=true)
