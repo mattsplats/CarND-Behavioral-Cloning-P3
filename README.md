@@ -79,4 +79,5 @@ To augment the data sat, I added horizontally flipped images and inverted angles
 For the training process, I randomly shuffled the data set and put 30% of the data into a validation set, which appeared to improve driving performance vs. a 20% validation split. Throughout the process I found training on three epochs to be sufficient to minimize validation error yet not so much as to encourage overfitting. Additional epochs generally only served to increase training time with no noticeable improvement in driving performance.
 
 Testing consisted of an autononous run through the simulator to verify that the vehicle could stay on the track. The video below shows how the simulator performed on the final model:
+
 [![Watch the video](./images/preview.jpg)](./video.mp4)
